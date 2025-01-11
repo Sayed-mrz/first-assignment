@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yuji+Mai&display=swap');
+
+
+/* nav design */
+.nav-design{
+    display: flex;
+    justify-content: space-around;
+    margin: 24px auto;
+}
+.nav-btn{
+    font-size: 10px;
+    color: #006A50;
+    padding: 7px 15px;
+    border:1px solid #006A50;
+    border-radius: 3px;
+}
+/* banner design */
+.banner-container{
+    display: flex;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    justify-content: space-around;
+    height: 460px;
+    width: 80%;
+    margin: 0 auto;
+}
+.bnr-img{ width: 350px;
+    margin-top: 70px;
+ }
+ .bnr-1st-card{
+    padding-top: 100px;
+    }
+    .bnr-btn{
+        background-color: #006A50;
+        color: aliceblue;
+        font-size: 12px;
+        font-weight: 600px;
+        border-radius: 5px;
+        padding: 10px 15px;
+        
+    }
+    .bnr-para{
+        color: #6f6a6a;
+}
+/* pillers of bangladesh design */
+.card-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+.all-cards{
+    display: flex;   
+}
+.child{
+    margin: 15px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.card-paragraph{
+    color: #6f6a6a;
+
+}
+/* The Vision of Future design */
+.vision-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    background-color:#abc8f1;
+    margin: 15px;
+    width: 550px;
+    border-radius: 5px;
+    }
+.card2{
+    background-color: rgb(194, 243, 226);
+    margin: 15px;
+    width: 550px;
+    border-radius: 5px;
+}
+.card3{
+    background-color: #F7EBCF;
+    margin: 15px;
+    width: 550px;
+    border-radius: 5px;
+}
+.btn1{
+margin: 20px 0;
+background-color: rgb(110, 110, 226);
+color: white;
+margin-left: 25px;
+border-radius: 5px;
+}
+.btn2{
+    margin: 20px 0;
+    background-color: rgb(127, 226, 110);
+    color: white;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.btn3{
+    margin: 20px 0;
+    background-color: rgb(245, 191, 93);
+    color: white;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+/* dr yunus quote */
+.dr-yunus{
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-color: rgb(206, 199, 199);
+    padding: 15px;
+}
+
+/* opinion style */
+table,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th,select{background-color: rgb(199, 229, 199);}
+.tbl-width{width: ;80%}
